@@ -1,0 +1,102 @@
+         /* SFONDO */
+body{
+  background: url(background.jpg);
+  background-size: cover;
+  align-items: center;
+  background-repeat: no-repeat;
+}
+    /* RIQUADRO TRASPARENTE  */
+.container{
+background-color:hsla(0, 0%, 0%, 0.5);
+width: 60%;
+margin: auto;
+text-align: center;
+height: 700px;
+border-radius: 1%;
+}
+      /* LOGO */
+img{
+  width: 18em;
+  height: auto;
+  margin:auto;
+  margin-top: 3em
+}
+      /* LOGO E TITOLO */
+header{
+ width: 55em;
+ margin:auto;
+}
+           /* TITOLO */
+header p{
+margin: auto;
+width: 15em;
+  font-size:3em;
+  color: #00dd00;
+
+}
+
+             /* NAVIGAZIONE NEL SITO */
+nav{
+  background-color: #00dd00;
+  width: 80%;
+  margin:auto;
+  padding-top: 0.5em;
+  padding-bottom:0.5em;
+}
+
+              /* CLIENTI */
+main{
+  width: 80%;
+  margin: auto;
+text-align: left;
+}
+
+               /* STATO DI CARICA */
+.car1{
+width: 30%;
+border: 12px solid orange;
+border-radius: 4px;
+
+}
+
+.car2{
+width: 60%;
+border: 12px solid #1ec31e;
+border-radius: 4px;
+
+}
+
+.car3{
+width: 15%;
+border: 12px solid #be4141;
+border-radius: 4px;
+
+}
+
+
+             /* NOME CLIENTI */
+.nome{
+  font-size: 1.5em;
+  color: white;
+}
+             /* INFO CLIENTI */
+.primocliente{
+  margin: auto;
+  color: grey;
+  margin-top: 2em;
+}
+
+.secondocliente{
+  margin: auto;
+  color: grey;
+  margin-top: 2em;
+}
+  .terzocliente{
+    margin: auto;
+    color: grey;
+    margin-top: 2em;
+}
+        /* FONT UTILIZZATO */
+*{
+  font-family: 'Roboto Flex', sans-serif;
+}
